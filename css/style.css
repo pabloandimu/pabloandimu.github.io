@@ -1,0 +1,25 @@
+
+#profile {
+    width: 300px;
+    height: 300px;
+    border-radius: 9999px;
+    border: 3px solid #ffffff;
+}
+
+#cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.redondo {
+    border-radius: 9999px;
+}
+
+.zoom{
+    transition: .5s;
+}
+.zoom:hover {
+    transform: scale(0.9);
+}
+

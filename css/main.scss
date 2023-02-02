@@ -1,0 +1,19 @@
+
+$primary: #d99800;
+
+.row>.col, 
+.row>.col-sm-4,
+.row>.col-sm-8,
+.row>.col-lg-4,
+.row>.col-lg-8,
+.bd-example-row .row>[class^="col-"] {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: #a3a3a3;
+    border: 1px solid rgb(65, 65, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
