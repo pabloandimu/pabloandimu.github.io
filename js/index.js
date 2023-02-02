@@ -24,3 +24,5 @@ document.getElementById('habilidades').addEventListener('mouseout', function () 
     document.getElementById('cv').innerHTML = "CV Pablo Mujica | Desarrollo WEB"
     document.body.style.backgroundColor = '#ffffff'
 })
+
+//comentario agregado
